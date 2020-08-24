@@ -18,8 +18,9 @@ String formatDecimal(double n) {
 class _HomeBmiPage extends State<HomeBmiPage> {
   TextEditingController tbController = TextEditingController();
   TextEditingController bbController = TextEditingController();
-  double result, pembilang, pembagi;
-  String ket;
+  double result = 0, pembilang, pembagi;
+  String ket = "";
+
 
   @override
   Widget build(BuildContext context) {
