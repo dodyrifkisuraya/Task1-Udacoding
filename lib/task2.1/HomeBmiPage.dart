@@ -26,7 +26,9 @@ class _HomeBmiPage extends State<HomeBmiPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: null,
-        body: Container(
+        resizeToAvoidBottomPadding: false,
+        body:
+        Container(
             padding: EdgeInsets.fromLTRB(16, 8, 16, 8),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -223,12 +225,14 @@ class _HomeBmiPage extends State<HomeBmiPage> {
                           style: TextStyle(
                             color: Colors.grey[700],
                             fontWeight: FontWeight.bold,
-                            fontSize: 70,
+                            fontSize: 60,
                           ),
                         )),
                   ],
                 ),
               ],
-            )));
+            )
+            )
+            );
   }
 }
