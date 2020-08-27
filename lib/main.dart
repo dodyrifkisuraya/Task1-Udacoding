@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 // import 'package:flutter/services.dart';
 // import 'package:task_one/task1/LoginPage.dart';
 // import 'package:task_one/task1/RegisterPage.dart';
-import 'package:task_one/task2.1/HomeBmiPage.dart';
+import 'package:task_one/task2.2/Calculator.dart';
 
 void main() {
   // SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Task2.1',
+      title: 'Task2.2',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -32,7 +32,8 @@ class MyApp extends StatelessWidget {
         // the app on. For desktop platforms, the controls will be smaller and
         // closer together (more dense) than on mobile platforms.
       ),
-      home: HomeBmiPage(),
+      debugShowCheckedModeBanner: false,
+      home: Calculator(),
     );
   }
 }
