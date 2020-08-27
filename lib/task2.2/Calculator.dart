@@ -42,7 +42,7 @@ class _Calculator extends State<Calculator> {
           if (hasil != "0") {
             if (hasil.length > 1) {
               hasil = hasil.substring(0, hasil.length - 1);
-            }else{
+            } else {
               hasil = "0";
             }
           }
@@ -112,7 +112,6 @@ class _Calculator extends State<Calculator> {
       });
 
   final Color _primarySwatchColor = Colors.amber;
-  final Color _titleAppBarColor = Colors.white;
   final Color _buttonColorWhite = Colors.white;
   final Color _buttonHighlightColor = Colors.grey[800];
   final Color _buttonColorGrey = Colors.grey[500];
@@ -227,7 +226,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("/");
                                   },
                                 ),
@@ -253,7 +251,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("7");
                                   },
                                 ),
@@ -271,7 +268,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("8");
                                   },
                                 ),
@@ -289,7 +285,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("9");
                                   },
                                 ),
@@ -307,7 +302,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("x");
                                   },
                                 ),
@@ -333,7 +327,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("4");
                                   },
                                 ),
@@ -351,7 +344,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("5");
                                   },
                                 ),
@@ -369,7 +361,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("6");
                                   },
                                 ),
@@ -387,7 +378,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("-");
                                   },
                                 ),
@@ -413,7 +403,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("1");
                                   },
                                 ),
@@ -431,7 +420,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("2");
                                   },
                                 ),
@@ -449,7 +437,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("3");
                                   },
                                 ),
@@ -467,7 +454,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("+");
                                   },
                                 ),
@@ -493,7 +479,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("0");
                                   },
                                 ),
@@ -511,7 +496,6 @@ class _Calculator extends State<Calculator> {
                                     ),
                                   ),
                                   onPressed: () {
-                                    // TODO: do something in here
                                     hitung("=");
                                   },
                                 ),
